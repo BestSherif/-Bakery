@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/src/fonts/Roboto-Regular.eot");
+  src: url("/src/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/src/fonts/Roboto-Regular.woff") format("woff"),
+    url("/src/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "Philosopher";
+  src: local("Philosopher");
+  src: url(/src/fonts/Philosopher-Regular.ttf);
+} */
+
+@font-face {
+  font-family: "Philosopher";
+  src: url("/src/fonts/Philosopher.eot");
+  src: url("/src/fonts/Philosopher.eot?#iefix") format("embedded-opentype"),
+    url("/src/fonts/Philosopher.woff") format("woff"),
+    url("/src/fonts/Philosopher-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* html {
+  width: 1440px;
+} */
+
+body {
+  background-color: #ffe2b0;
+}
+header,
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+li {
+  display: inline;
+  font: 18px Roboto;
+  margin: 0 100px 0 0;
+}
+li:last-child {
+  margin-right: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  /* color: red; */
+  border-bottom: 1px solid black;
+}
+
+.img-bread {
+  position: relative;
+  min-width: 1440px;
+  height: 640px;
+  background-image: url(../img/backgroundPicture.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+  /* три строчки сверху можно заменить одной:display:
+   background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat; */
+}
+.specialOrder {
+  height: 190px;
+  width: 420px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 213, 178, 0.8) 0%,
+    rgba(234, 156, 65, 0.8) 100%
+  );
+  position: absolute;
+  z-index: 1;
+  top: 54.5%;
+  left: 50%;
+}
+.frame-1 {
+  margin: 15px;
+  /* text-align: center; */
+  border: 1px solid black;
+  height: 160px;
+  width: 390px;
+  padding: 17px 0 0 28px;
+}
+.heading-1 {
+  font-size: 36px;
+  font-family: "Philosopher", sans-serif;
+  margin: 0px;
+  margin-bottom: 9px;
+  /* margin: 17px 28px 9px 28px; */
+}
+.heading-1p {
+  font: 12px Roboto;
+  text-align: left;
+  margin: 0px;
+  /* margin: 0px 28px; */
+}
+.logo {
+  height: 290px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logo img {
+  margin-right: 76px;
+}
+.logo img:last-child {
+  margin-right: 0px;
+}
+.bakery {
+  font-size: 96px;
+  font-family: "Philosopher", sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+.red {
+  color: #f15b40;
+}
+
+.bakingDescription {
+  text-align: center;
+  margin: 0 auto 20px;
+  font: 18px Roboto;
+  width: 1000px;
+}
+
+.order {
+  text-align: center;
+  font: 36px "Philosopher", sans-serif;
+  margin-bottom: 20px;
+}
+.order-map {
+  margin-bottom: 20px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  border: none;
+  width: 1024px;
+  height: 1px;
+  background: #999999;
+  margin-bottom: 20px;
+}
+
+.navFooter ul li a {
+  font: Roboto;
+}
+
+footer {
+  height: 40px;
+}
